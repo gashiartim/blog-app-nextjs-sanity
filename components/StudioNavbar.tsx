@@ -10,8 +10,8 @@ function StudioNavbar(props: any) {
           padding: "20px",
         }}
       >
-        <Link href="/" className="text-[#F7AB0A] flex items-center">
-          <ArrowUturnLeftIcon className="mr-2 h-6 w-6 text-sm text-[#F7AB0A] " />
+        <Link href="/" className="text-[#30EFA6] flex items-center">
+          <ArrowUturnLeftIcon className="mr-2 h-6 w-6 text-sm text-[#30EFA6] " />
           Go to website
         </Link>
       </div>

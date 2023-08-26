@@ -22,7 +22,7 @@ export default async function HomePage() {
 
   if (isEnabled) {
     return (
-      <PreviewProvider previewToken="">
+      <PreviewProvider>
         <PreviewSuspense>
           <PreviewBlogList query={query} />
         </PreviewSuspense>

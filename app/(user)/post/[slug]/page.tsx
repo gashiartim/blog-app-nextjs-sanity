@@ -43,7 +43,7 @@ const PostPage = async ({ params: { slug } }: Props) => {
 
   return (
     <article className="px-10 pb-28">
-      <section className="spacing-y-2 border border-[#F7AB0A] text-white">
+      <section className="spacing-y-2 border border-[#30EFA6] text-white">
         <div className="relative min-h-56 flex flex-col md:flex-row justify-between">
           <div className="absolute top-0 w-full h-full opacity-10 blur-sm p-10">
             {post.mainImage && (
@@ -56,7 +56,7 @@ const PostPage = async ({ params: { slug } }: Props) => {
             )}
           </div>
 
-          <section className="p-5 bg-[#F7AB0A] w-full">
+          <section className="p-5 bg-[#30EFA6] w-full">
             <div className="flex flex-col md:flex-row justify-between gap-y-5">
               <div>
                 <h1 className="text-4xl font-extrabold">{post.title}</h1>
